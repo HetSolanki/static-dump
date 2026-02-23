@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#16213e;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg)" />
+  <!-- Ground -->
+  <rect y="380" width="800" height="120" fill="#0a0a1a" />
+  <!-- Road -->
+  <polygon points="300,500 500,500 480,380 320,380" fill="#222" />
+  <rect x="395" y="390" width="10" height="20" fill="#FFD700" opacity="0.7" />
+  <rect x="395" y="420" width="10" height="20" fill="#FFD700" opacity="0.7" />
+  <rect x="395" y="450" width="10" height="20" fill="#FFD700" opacity="0.7" />
+  <!-- Buildings left -->
+  <rect x="20" y="200" width="60" height="180" fill="#0f3460" />
+  <rect x="90" y="150" width="50" height="230" fill="#162447" />
+  <rect x="150" y="220" width="70" height="160" fill="#1a1a4e" />
+  <rect x="230" y="180" width="55" height="200" fill="#0f3460" />
+  <!-- Buildings right -->
+  <rect x="490" y="190" width="65" height="190" fill="#162447" />
+  <rect x="565" y="160" width="55" height="220" fill="#0f3460" />
+  <rect x="630" y="210" width="70" height="170" fill="#1a1a4e" />
+  <rect x="710" y="170" width="70" height="210" fill="#162447" />
+  <!-- Windows -->
+  <rect x="30" y="215" width="10" height="10" fill="#FFD700" opacity="0.8" />
+  <rect x="50" y="215" width="10" height="10" fill="#FFD700" opacity="0.8" />
+  <rect x="30" y="240" width="10" height="10" fill="#FFD700" opacity="0.3" />
+  <rect x="50" y="240" width="10" height="10" fill="#FFD700" opacity="0.8" />
+  <rect x="100" y="170" width="10" height="10" fill="#FFD700" opacity="0.8" />
+  <rect x="120" y="170" width="10" height="10" fill="#FFD700" opacity="0.4" />
+  <rect x="100" y="195" width="10" height="10" fill="#FFD700" opacity="0.8" />
+  <rect x="120" y="195" width="10" height="10" fill="#FFD700" opacity="0.8" />
+  <rect x="500" y="205" width="10" height="10" fill="#FFD700" opacity="0.8" />
+  <rect x="520" y="205" width="10" height="10" fill="#FFD700" opacity="0.4" />
+  <rect x="540" y="205" width="10" height="10" fill="#FFD700" opacity="0.8" />
+  <rect x="575" y="180" width="10" height="10" fill="#FFD700" opacity="0.8" />
+  <rect x="600" y="180" width="10" height="10" fill="#FFD700" opacity="0.8" />
+  <rect x="575" y="210" width="10" height="10" fill="#FFD700" opacity="0.3" />
+  <rect x="640" y="225" width="10" height="10" fill="#FFD700" opacity="0.8" />
+  <rect x="665" y="225" width="10" height="10" fill="#FFD700" opacity="0.8" />
+  <rect x="720" y="185" width="10" height="10" fill="#FFD700" opacity="0.8" />
+  <rect x="745" y="185" width="10" height="10" fill="#FFD700" opacity="0.4" />
+  <!-- Stars -->
+  <circle cx="50" cy="30" r="2" fill="white" />
+  <circle cx="120" cy="15" r="1.5" fill="white" />
+  <circle cx="200" cy="40" r="2" fill="white" />
+  <circle cx="300" cy="10" r="1.5" fill="white" />
+  <circle cx="400" cy="25" r="2" fill="white" />
+  <circle cx="500" cy="12" r="1.5" fill="white" />
+  <circle cx="600" cy="35" r="2" fill="white" />
+  <circle cx="720" cy="20" r="1.5" fill="white" />
+  <circle cx="760" cy="45" r="2" fill="white" />
+  <!-- Moon -->
+  <circle cx="720" cy="60" r="35" fill="#e8e8e8" />
+  <circle cx="738" cy="52" r="28" fill="#1a1a2e" />
+  <!-- Street lights -->
+  <rect x="285" y="320" width="6" height="60" fill="#888" />
+  <rect x="275" y="320" width="26" height="6" fill="#888" />
+  <circle cx="275" cy="320" r="5" fill="#FFE566" opacity="0.9" />
+  <rect x="509" y="320" width="6" height="60" fill="#888" />
+  <rect x="499" y="320" width="26" height="6" fill="#888" />
+  <circle cx="525" cy="320" r="5" fill="#FFE566" opacity="0.9" />
+  <!-- Label -->
+  <rect x="0" y="460" width="800" height="40" fill="rgba(0,0,0,0.5)" />
+  <text x="400" y="487" font-family="Arial, sans-serif" font-size="18" fill="white" text-anchor="middle">City — Night Skyline</text>
+</svg>

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="sea" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#006994;stop-opacity:1" />
+      <stop offset="60%" style="stop-color:#0099cc;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00b4d8;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="sky2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#f7c59f;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#ef8c55;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c0392b;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Sky -->
+  <rect width="800" height="280" fill="url(#sky2)" />
+  <!-- Sun setting -->
+  <circle cx="400" cy="280" r="70" fill="#FFD700" opacity="0.9" />
+  <circle cx="400" cy="280" r="60" fill="#FFA500" opacity="0.8" />
+  <!-- Horizon glow -->
+  <ellipse cx="400" cy="280" rx="300" ry="40" fill="#FF6B35" opacity="0.4" />
+  <!-- Sea -->
+  <rect y="280" width="800" height="220" fill="url(#sea)" />
+  <!-- Sun reflection on water -->
+  <ellipse cx="400" cy="320" rx="80" ry="15" fill="#FFD700" opacity="0.3" />
+  <ellipse cx="400" cy="360" rx="50" ry="10" fill="#FFD700" opacity="0.2" />
+  <ellipse cx="400" cy="400" rx="30" ry="6" fill="#FFD700" opacity="0.15" />
+  <!-- Waves -->
+  <path d="M 0 300 Q 50 290 100 300 Q 150 310 200 300 Q 250 290 300 300 Q 350 310 400 300 Q 450 290 500 300 Q 550 310 600 300 Q 650 290 700 300 Q 750 310 800 300" stroke="rgba(255,255,255,0.4)" stroke-width="2" fill="none" />
+  <path d="M 0 340 Q 60 330 120 340 Q 180 350 240 340 Q 300 330 360 340 Q 420 350 480 340 Q 540 330 600 340 Q 660 350 720 340 Q 760 330 800 340" stroke="rgba(255,255,255,0.3)" stroke-width="1.5" fill="none" />
+  <path d="M 0 380 Q 70 370 140 380 Q 210 390 280 380 Q 350 370 420 380 Q 490 390 560 380 Q 630 370 700 380 Q 750 390 800 380" stroke="rgba(255,255,255,0.2)" stroke-width="1.5" fill="none" />
+  <!-- Clouds -->
+  <ellipse cx="100" cy="80" rx="90" ry="35" fill="white" opacity="0.6" />
+  <ellipse cx="160" cy="72" rx="70" ry="28" fill="white" opacity="0.6" />
+  <ellipse cx="50" cy="88" rx="60" ry="25" fill="white" opacity="0.6" />
+  <ellipse cx="650" cy="100" rx="80" ry="30" fill="white" opacity="0.5" />
+  <ellipse cx="710" cy="92" rx="65" ry="26" fill="white" opacity="0.5" />
+  <!-- Silhouette birds -->
+  <path d="M 200 120 Q 210 112 220 120" stroke="#1a1a1a" stroke-width="2" fill="none" />
+  <path d="M 225 110 Q 235 102 245 110" stroke="#1a1a1a" stroke-width="2" fill="none" />
+  <path d="M 250 125 Q 260 117 270 125" stroke="#1a1a1a" stroke-width="2" fill="none" />
+  <!-- Boat silhouette -->
+  <polygon points="360,265 440,265 430,280 370,280" fill="#1a1a1a" opacity="0.7" />
+  <rect x="398" y="235" width="4" height="30" fill="#1a1a1a" opacity="0.7" />
+  <polygon points="402,235 402,255 425,255" fill="#8B0000" opacity="0.7" />
+  <!-- Label -->
+  <rect x="0" y="460" width="800" height="40" fill="rgba(0,0,0,0.4)" />
+  <text x="400" y="487" font-family="Arial, sans-serif" font-size="18" fill="white" text-anchor="middle">Ocean — Sunset at Sea</text>
+</svg>
