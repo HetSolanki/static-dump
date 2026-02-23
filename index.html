@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Wanderlust — A simple static photography &amp; travel showcase site." />
+  <title>Wanderlust | Explore the World</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== Header ===== -->
+  <header>
+    <h1>🌍 Wanderlust</h1>
+    <p class="tagline">Discover breathtaking landscapes, vibrant cities, and endless horizons.</p>
+  </header>
+
+  <!-- ===== Navigation ===== -->
+  <nav>
+    <a href="#about">About</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#features">Features</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- ===== Main Content ===== -->
+  <main>
+
+    <!-- About Section -->
+    <section id="about">
+      <h2>About Us</h2>
+      <p class="section-lead">We capture the beauty of our world — one photo at a time.</p>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            Wanderlust is a passion project born from a love of travel and photography. We believe every
+            landscape tells a story — from the snow-capped peaks of towering mountains to the neon glow
+            of city skylines after dark.
+          </p>
+          <p>
+            Our collection brings together nature, urban life, and the vast open ocean, inviting you to
+            pause, breathe, and wonder at the world around us.
+          </p>
+          <a href="#gallery" class="btn">View Gallery</a>
+        </div>
+        <div class="about-image">
+          <img src="images/nature.svg" alt="Mountain landscape at sunrise" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery">
+      <h2>Gallery</h2>
+      <p class="section-lead">A curated collection of scenes from around the globe.</p>
+      <div class="gallery">
+
+        <div class="gallery-card">
+          <img src="images/nature.svg" alt="Mountain Landscape" />
+          <div class="card-body">
+            <h3>Mountain Landscape</h3>
+            <p>Majestic peaks reach into a clear blue sky, blanketed with fresh snow and surrounded by
+               lush green forests.</p>
+          </div>
+        </div>
+
+        <div class="gallery-card">
+          <img src="images/city.svg" alt="City Night Skyline" />
+          <div class="card-body">
+            <h3>City Night Skyline</h3>
+            <p>A bustling metropolis comes alive after dark — thousands of lights weaving stories of
+               the people within.</p>
+          </div>
+        </div>
+
+        <div class="gallery-card">
+          <img src="images/ocean.svg" alt="Ocean Sunset" />
+          <div class="card-body">
+            <h3>Ocean Sunset</h3>
+            <p>Golden hour melts into the sea as the sun dips below the horizon, painting the sky in
+               hues of amber and crimson.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features">
+      <h2>Why Wanderlust?</h2>
+      <p class="section-lead">Everything you need to feed your wandering soul.</p>
+      <div class="features">
+
+        <div class="feature-box">
+          <div class="icon">🏔️</div>
+          <h3>Nature Escapes</h3>
+          <p>Explore serene mountains, dense forests, and open meadows captured in stunning detail.</p>
+        </div>
+
+        <div class="feature-box">
+          <div class="icon">🌃</div>
+          <h3>Urban Stories</h3>
+          <p>Dive into city life — architecture, street art, and the pulse of modern civilization.</p>
+        </div>
+
+        <div class="feature-box">
+          <div class="icon">🌊</div>
+          <h3>Ocean Wonders</h3>
+          <p>From calm lagoons to dramatic surf, the ocean offers an endless canvas of beauty.</p>
+        </div>
+
+        <div class="feature-box">
+          <div class="icon">📸</div>
+          <h3>Curated Photos</h3>
+          <p>Every image is hand-picked for composition, light, and the feeling it evokes.</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <h2>Get in Touch</h2>
+      <p class="section-lead">Have a photo to share or a story to tell? We'd love to hear from you.</p>
+      <form class="contact-form" action="#" method="post">
+        <label for="name">Your Name</label>
+        <input type="text" id="name" name="name" placeholder="Jane Doe" required />
+
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" placeholder="jane@example.com" required />
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" placeholder="Tell us about your favorite travel destination…" required></textarea>
+
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </section>
+
+  </main>
+
+  <!-- ===== Footer ===== -->
+  <footer>
+    <p>&copy; 2026 Wanderlust. Made with ❤️ for explorers everywhere.</p>
+    <p>Images inspired by <a href="https://unsplash.com" target="_blank" rel="noopener">Unsplash</a>.</p>
+  </footer>
+
+</body>
+</html>
